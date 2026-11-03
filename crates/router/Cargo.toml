@@ -1,0 +1,12 @@
+[package]
+name = "router"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Multi-venue swap router over prefetched Sui CLMM / DeepBook pools"
+
+[dependencies]
+anyhow = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sui-clmm-manager = { workspace = true }

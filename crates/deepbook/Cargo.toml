@@ -1,0 +1,10 @@
+[package]
+name = "deepbook"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "DeepBook reads / swaps (stub)"
+
+[dependencies]
+anyhow = { workspace = true }
+sui-clmm-manager = { workspace = true }

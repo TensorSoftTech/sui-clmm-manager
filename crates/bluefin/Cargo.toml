@@ -1,0 +1,11 @@
+[package]
+name = "bluefin"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Bluefin Spot CLMM reads via Sui GraphQL"
+
+[dependencies]
+anyhow = { workspace = true }
+serde_json = { workspace = true }
+sui-clmm-manager = { workspace = true }

@@ -1,0 +1,20 @@
+[package]
+name = "sui-clmm-tui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Terminal UI for Sui concentrated liquidity (pools-first)"
+readme = "../../README.md"
+
+[[bin]]
+name = "sui-clmm-tui"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
+color-eyre = { workspace = true }
+crossterm = { workspace = true }
+ratatui = { workspace = true }
+sui-clmm-client = { workspace = true }
+sui-clmm-manager = { workspace = true }

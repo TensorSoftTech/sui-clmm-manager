@@ -1,0 +1,16 @@
+[package]
+name = "sui-clmm-client"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Multi-venue Sui CLMM client API for TUI and agents"
+
+[dependencies]
+anyhow = { workspace = true }
+bluefin = { workspace = true }
+cetus = { workspace = true }
+deepbook = { workspace = true }
+momentum = { workspace = true }
+router = { workspace = true }
+sui-clmm-manager = { workspace = true }
+turbos = { workspace = true }

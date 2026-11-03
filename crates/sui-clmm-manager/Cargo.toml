@@ -1,0 +1,14 @@
+[package]
+name = "sui-clmm-manager"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Shared Sui CLMM manager: GraphQL metering, SQLite store, pool prefetch"
+readme = "../../README.md"
+
+[dependencies]
+anyhow = { workspace = true }
+reqwest = { workspace = true }
+rusqlite = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
